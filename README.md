@@ -64,5 +64,5 @@ npm publish
 
 # Changelog
 
-all versions below 1.0.0 are beta
+> All versions below 1.0.0 are beta
 
