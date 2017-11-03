@@ -1,0 +1,35 @@
+{
+  "name": "ngx-truncate",
+  "version": "0.0.1",
+  "description": "truncate for strings angular5",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf aot dist && npm run ngc",
+    "submit": "npm run build && npm publish",
+    "submitGit": "git push --all && git push --tags && npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarkes/ngxtruncate.git"
+  },
+  "keywords": ["truncate"],
+  "author": "Antonio Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amarkes/ngxtruncate.git/issues"
+  },
+  "devDependencies": {
+    "@angular/common": "4.2.4",
+    "@angular/compiler": "4.2.4",
+    "@angular/compiler-cli": "4.2.4",
+    "@angular/core": "4.2.4",
+    "@angular/forms": "4.2.4",
+    "@angular/platform-browser": "4.2.4",
+    "@types/node": "6.0.49",
+    "rxjs": "5.4.2",
+    "ts-node": "3.2.0",
+    "typescript": "2.3.3"
+  }
+}
