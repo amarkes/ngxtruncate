@@ -7,8 +7,12 @@
 
 
 
-
 # Required
+- node v8.4.0
+- npm v5.5.1
+- typescript v2.3.3
+- Angular: 4.2.4
+- Angular CLI: 1.5.0
 
 # install
 
@@ -31,8 +35,16 @@ import { NgXtruncateModule } from 'ngxtruncate';
 
 ### HTML
 
-# Inputs
+```html
+// app.html
+{{ 'a simple test variable' | ngXtruncate}}
+{{ 'a simple test variable' | ngXtruncate:8}}
+{{ 'a simple test variable' | ngXtruncate:8:'.'}}
+```
 
+# Note
+
+> This pipe removes all html tags, using the regex `/<[^>]+>/gm`
 
 # Build for developer
 
@@ -51,4 +63,6 @@ npm publish
 ```
 
 # Changelog
+
+all versions below 1.0.0 are beta
 
