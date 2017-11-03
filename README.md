@@ -17,13 +17,13 @@
 # install
 
 ```sh
-npm install ngxtruncate --save
+npm install ngx-truncate --save
 ```
 
 # Module
 
 ```javascript
-import { NgXtruncateModule } from 'ngxtruncate';
+import { NgXtruncateModule } from 'ngx-truncate';
 
 @NgModule({
   imports: [
